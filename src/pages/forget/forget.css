@@ -1,0 +1,50 @@
+.log-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 45rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0px 0px 15px -5px black;
+    background: var(--bg-color);
+    
+}
+
+.log-card .img{
+    width: 50%;
+}
+
+.form{
+    font-family: var(--font-family);
+    border: 5px solid var(--main-color);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.form h1{
+    color: var(--main-color);
+    text-transform: uppercase;
+  
+}
+
+.form a{
+    text-decoration: none;
+    
+}
+
+.form label{
+    color: var(--secondary-color);
+}
+
+.form .btn{
+    background: var(--secondary-color);
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid var(--secondary-color);
+}
+
+.form .btn:hover{
+    background: var(--main-color);
+}

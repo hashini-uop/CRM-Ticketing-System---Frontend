@@ -1,0 +1,11 @@
+.labels{
+    font-family: var(--font-family);
+    
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.table{
+    border: 1px solid var(--main-color);
+    background: var(--bg-color);
+}

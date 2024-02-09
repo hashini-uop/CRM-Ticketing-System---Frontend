@@ -1,0 +1,37 @@
+.ticket{
+    background: var(--bg-color);
+    padding: 20px 50px;
+}
+
+.ticket .col{
+    color: var(--main-color);
+   text-decoration: solid;
+}
+
+.row{
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button{
+    align-items: center;
+    text-align: right;
+    justify-content: end;
+}
+
+.btn {
+    background: var(--secondary-color);
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    border: 1px solid var(--secondary-color);
+  }
+  
+
+ .btn:hover {
+    background: var(--main-color);
+  }

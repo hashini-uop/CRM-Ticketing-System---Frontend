@@ -1,0 +1,29 @@
+body{
+    font-family: var(--font-family);
+     background: var(--bg-color);
+}
+
+.layout{
+    display: grid;
+    grid-template-rows: 80px auto 3rem;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    min-height: 88vh;
+}
+
+footer{
+    grid-area: footer;
+    background: var(--main-color);
+    padding: 1rem;
+    color: #fff;
+}

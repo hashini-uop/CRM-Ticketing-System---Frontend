@@ -1,0 +1,42 @@
+.headline {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+}
+
+.dashboard{
+  background-color: var(--bg-color);
+  padding: 20px 50px;
+}
+
+.dashboard .details .quantity {
+  font-family: var(--font-family);
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.dashboard .btn {
+  background: var(--secondary-color);
+  margin: 10px 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  border: 1px solid var(--secondary-color);
+}
+
+.dashboard .recent{
+  display: flex;
+  justify-content: left;
+}
+.dashboard .btn:hover {
+  background: var(--main-color);
+}
+
+.recent-ticket{
+  width: 100%;
+}

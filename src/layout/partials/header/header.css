@@ -1,0 +1,24 @@
+.navbar{
+    background: var(--main-color);
+    position: fixed;
+}
+
+.navbar .navbar-logo{
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+
+.navbar .navbar-links{
+    margin: 0px 20px;
+    color: #eee;
+    font-size: 20px;
+}
+
+.navbar .navbar-links:hover{
+    color: var(--secondary-color);
+}
+
+.navbar .links{
+    margin-left: auto;
+}

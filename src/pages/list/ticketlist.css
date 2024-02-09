@@ -1,0 +1,17 @@
+.btn{
+    background: var(--secondary-color);
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid var(--secondary-color);
+}
+
+.btn:hover{
+    background: var(--main-color);
+}
+
+.list{
+    background: var(--bg-color);
+    padding: 20px 50px;
+}
